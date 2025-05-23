@@ -19,16 +19,11 @@
     h1 {
       color: black;
     }
-    button {
+    a button {
       padding: 20px 35px;
       font-size: 16px;
       margin-top: 20px;
       cursor: pointer;
-    }
-    #message {
-      margin-top: 20px;
-      color: #f0d9b5;
-      font-weight: bold;
     }
   </style>
 </head>
@@ -38,13 +33,10 @@
     <p>Refining stagnation into motivation</p>
   </div>
 
-  <button onclick="showMessage()">Click Me</button>
-  <div id="message"></div>
+  <!-- Button inside a link -->
+  <a href="second-page.html">
+    <button>Click Me</button>
+  </a>
 
-  <script>
-    function showMessage() {
-      document.getElementById("message").textContent = "OUCH!";
-    }
-  </script>
 </body>
 </html>
