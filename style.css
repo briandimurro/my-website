@@ -1,10 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background: #869759;
   padding: 40px;
   text-align: center;
 }
 
+/* Backgrounds per page */
+.index-page {
+  background: #869759;
+}
+
+.second-page {
+  background-color: #f0d9b5;
+}
+
+/* Shared styles */
 .top-section {
   background-color: #f0d9b5; 
   padding: 20px;
@@ -13,6 +22,10 @@ body {
 
 h1 {
   color: black;
+}
+
+.second-page h1 {
+  color: #333;
 }
 
 a button {
